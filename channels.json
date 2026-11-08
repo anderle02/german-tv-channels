@@ -1,0 +1,2273 @@
+{
+  "schema": 1,
+  "updated": "2026-11-08T18:21:01Z",
+  "groups": [
+    {
+      "id": "haupt",
+      "name": "Hauptsender"
+    },
+    {
+      "id": "dritte",
+      "name": "Dritte Programme"
+    },
+    {
+      "id": "nachrichten",
+      "name": "Nachrichten & Politik"
+    },
+    {
+      "id": "kultur",
+      "name": "Kultur & Bildung"
+    },
+    {
+      "id": "kinder",
+      "name": "Kinder"
+    },
+    {
+      "id": "unterhaltung",
+      "name": "Unterhaltung & Doku"
+    },
+    {
+      "id": "musik",
+      "name": "Musik"
+    },
+    {
+      "id": "regional",
+      "name": "Regional & Lokal"
+    },
+    {
+      "id": "international",
+      "name": "International"
+    }
+  ],
+  "channels": [
+    {
+      "id": "daserste",
+      "name": "Das Erste",
+      "group": "haupt",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/500px-Das_Erste_2014.svg.png",
+      "iptvOrg": "DasErste.de@HD",
+      "epg": {
+        "ard": "daserste",
+        "magenta": "373"
+      },
+      "mediathek": [
+        "ARD"
+      ],
+      "streams": [
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8"
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zdf",
+      "name": "ZDF",
+      "group": "haupt",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/500px-ZDF_logo.svg.png",
+      "iptvOrg": "ZDF.de@SD",
+      "epg": {
+        "zdf": "zdf",
+        "magenta": "408"
+      },
+      "mediathek": [
+        "ZDF"
+      ],
+      "streams": [
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8"
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zdfneo",
+      "name": "ZDFneo",
+      "group": "haupt",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/500px-ZDFneo2017_Logo.svg.png",
+      "iptvOrg": "ZDFneo.de@SD",
+      "epg": {
+        "zdf": "zdfneo",
+        "magenta": "391"
+      },
+      "mediathek": [
+        "ZDFneo",
+        "ZDF"
+      ],
+      "streams": [
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8"
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "one",
+      "name": "ONE",
+      "group": "haupt",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/500px-One_2022.svg.png",
+      "epg": {
+        "ard": "one",
+        "magenta": "402"
+      },
+      "mediathek": [
+        "ONE",
+        "ARD"
+      ],
+      "streams": [
+        {
+          "url": "https://mcdn-one.ard.de/ardone/hls/master.m3u8"
+        },
+        {
+          "url": "https://mcdn.one.ard.de/ardone/hls/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "br",
+      "name": "BR Fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png",
+      "iptvOrg": "BRFernsehen.de@Sud",
+      "epg": {
+        "ard": "br"
+      },
+      "mediathek": [
+        "BR"
+      ],
+      "variants": [
+        {
+          "id": "br-sued",
+          "name": "Süd",
+          "streams": [
+            {
+              "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8"
+            }
+          ],
+          "iptvOrg": "BRFernsehen.de@Sud",
+          "epg": {
+            "magenta": "407"
+          }
+        },
+        {
+          "id": "br-nord",
+          "name": "Nord",
+          "streams": [
+            {
+              "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8"
+            }
+          ],
+          "iptvOrg": "BRFernsehen.de@Nord",
+          "epg": {
+            "magenta": "175"
+          }
+        }
+      ],
+      "defaultVariant": "br-sued"
+    },
+    {
+      "id": "hr",
+      "name": "hr-fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png",
+      "iptvOrg": "hrfernsehen.de@SD",
+      "epg": {
+        "ard": "hr",
+        "magenta": "386"
+      },
+      "mediathek": [
+        "HR"
+      ],
+      "streams": [
+        {
+          "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8"
+        },
+        {
+          "url": "https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/master.m3u8"
+        },
+        {
+          "url": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "mdr",
+      "name": "MDR",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png",
+      "iptvOrg": "MDRFernsehen.de@Sachsen",
+      "epg": {
+        "ard": "mdr"
+      },
+      "mediathek": [
+        "MDR"
+      ],
+      "variants": [
+        {
+          "id": "mdr-sn",
+          "name": "Sachsen",
+          "streams": [
+            {
+              "url": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8"
+            },
+            {
+              "url": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8"
+            }
+          ],
+          "iptvOrg": "MDRFernsehen.de@Sachsen",
+          "epg": {
+            "magenta": "370"
+          }
+        },
+        {
+          "id": "mdr-sa",
+          "name": "Sachsen-Anhalt",
+          "streams": [
+            {
+              "url": "https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8"
+            },
+            {
+              "url": "https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/index.m3u8"
+            }
+          ],
+          "iptvOrg": "MDRFernsehen.de@SachsenAnhalt",
+          "epg": {
+            "magenta": "147"
+          }
+        },
+        {
+          "id": "mdr-th",
+          "name": "Thüringen",
+          "streams": [
+            {
+              "url": "https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8"
+            },
+            {
+              "url": "https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/index.m3u8"
+            }
+          ],
+          "iptvOrg": "MDRFernsehen.de@Thuringen",
+          "epg": {
+            "magenta": "252"
+          }
+        }
+      ],
+      "defaultVariant": "mdr-sn"
+    },
+    {
+      "id": "ndr",
+      "name": "NDR",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png",
+      "iptvOrg": "NDRFernsehen.de@Niedersachsen",
+      "epg": {
+        "ard": "ndr"
+      },
+      "mediathek": [
+        "NDR"
+      ],
+      "variants": [
+        {
+          "id": "ndr-nds",
+          "name": "Niedersachsen",
+          "streams": [
+            {
+              "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
+            }
+          ],
+          "iptvOrg": "NDRFernsehen.de@Niedersachsen",
+          "epg": {
+            "magenta": "377"
+          }
+        },
+        {
+          "id": "ndr-hh",
+          "name": "Hamburg",
+          "streams": [
+            {
+              "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8"
+            }
+          ],
+          "iptvOrg": "NDRFernsehen.de@Hamburg",
+          "epg": {
+            "magenta": "150"
+          }
+        },
+        {
+          "id": "ndr-sh",
+          "name": "Schleswig-Holstein",
+          "streams": [
+            {
+              "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8"
+            }
+          ],
+          "iptvOrg": "NDRFernsehen.de@SchleswigHolstein",
+          "epg": {
+            "magenta": "151"
+          }
+        },
+        {
+          "id": "ndr-mv",
+          "name": "Mecklenburg-Vorpommern",
+          "streams": [
+            {
+              "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8"
+            }
+          ],
+          "iptvOrg": "NDRFernsehen.de@MecklenburgVorpommern",
+          "epg": {
+            "magenta": "240"
+          }
+        }
+      ],
+      "defaultVariant": "ndr-nds"
+    },
+    {
+      "id": "radiobremen",
+      "name": "Radio Bremen TV",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_Radio_Bremen.svg/500px-Logo_Radio_Bremen.svg.png",
+      "iptvOrg": "RadioBremenFernsehen.de@SD",
+      "epg": {
+        "ard": "radiobremen",
+        "magenta": "368"
+      },
+      "mediathek": [
+        "Radio Bremen TV",
+        "rbtv"
+      ],
+      "streams": [
+        {
+          "url": "https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rbb",
+      "name": "rbb Fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png",
+      "iptvOrg": "rbbFernsehen.de@Berlin",
+      "epg": {
+        "ard": "rbb"
+      },
+      "mediathek": [
+        "RBB"
+      ],
+      "variants": [
+        {
+          "id": "rbb-be",
+          "name": "Berlin",
+          "streams": [
+            {
+              "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8"
+            },
+            {
+              "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/index.m3u8"
+            }
+          ],
+          "iptvOrg": "rbbFernsehen.de@Berlin",
+          "epg": {
+            "magenta": "384"
+          }
+        },
+        {
+          "id": "rbb-bb",
+          "name": "Brandenburg",
+          "streams": [
+            {
+              "url": "https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8"
+            },
+            {
+              "url": "https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/index.m3u8"
+            }
+          ],
+          "iptvOrg": "rbbFernsehen.de@Brandenburg",
+          "epg": {
+            "magenta": "242"
+          }
+        }
+      ],
+      "defaultVariant": "rbb-be"
+    },
+    {
+      "id": "sr",
+      "name": "SR Fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png",
+      "iptvOrg": "SRFernsehen.de@SD",
+      "epg": {
+        "ard": "sr",
+        "magenta": "379"
+      },
+      "mediathek": [
+        "SR"
+      ],
+      "streams": [
+        {
+          "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/master.m3u8"
+        },
+        {
+          "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "swr",
+      "name": "SWR Fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png",
+      "iptvOrg": "SWRFernsehenBadenWurttemberg.de@SD",
+      "epg": {
+        "ard": "swr"
+      },
+      "mediathek": [
+        "SWR"
+      ],
+      "variants": [
+        {
+          "id": "swr-bw",
+          "name": "Baden-Württemberg",
+          "streams": [
+            {
+              "url": "https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8"
+            }
+          ],
+          "iptvOrg": "SWRFernsehenBadenWurttemberg.de@SD",
+          "epg": {
+            "magenta": "398"
+          }
+        },
+        {
+          "id": "swr-rp",
+          "name": "Rheinland-Pfalz",
+          "streams": [
+            {
+              "url": "https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8"
+            }
+          ],
+          "iptvOrg": "SWRFernsehenRheinlandPfalz.de@SD",
+          "epg": {
+            "magenta": "393"
+          }
+        }
+      ],
+      "defaultVariant": "swr-bw"
+    },
+    {
+      "id": "wdr",
+      "name": "WDR Fernsehen",
+      "group": "dritte",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png",
+      "iptvOrg": "WDRFernsehen.de@Koln",
+      "epg": {
+        "ard": "wdr"
+      },
+      "mediathek": [
+        "WDR"
+      ],
+      "variants": [
+        {
+          "id": "wdr",
+          "name": "Standard",
+          "streams": [
+            {
+              "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8"
+            },
+            {
+              "url": "https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8"
+            },
+            {
+              "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8"
+            }
+          ],
+          "epg": {
+            "magenta": "397"
+          }
+        },
+        {
+          "id": "wdr-ac",
+          "name": "Lokalzeit Aachen",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Aachen",
+          "epg": {
+            "magenta": "160"
+          }
+        },
+        {
+          "id": "wdr-bi",
+          "name": "Lokalzeit OWL (Bielefeld)",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Bielefeld",
+          "epg": {
+            "magenta": "158"
+          }
+        },
+        {
+          "id": "wdr-bn",
+          "name": "Lokalzeit Bonn",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Bonn",
+          "epg": {
+            "magenta": "155"
+          }
+        },
+        {
+          "id": "wdr-do",
+          "name": "Lokalzeit Dortmund",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Dortmund",
+          "epg": {
+            "magenta": "172"
+          }
+        },
+        {
+          "id": "wdr-du",
+          "name": "Lokalzeit Duisburg",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Duisburg",
+          "epg": {
+            "magenta": "165"
+          }
+        },
+        {
+          "id": "wdr-dus",
+          "name": "Lokalzeit Düsseldorf",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Dusseldorf",
+          "epg": {
+            "magenta": "167"
+          }
+        },
+        {
+          "id": "wdr-e",
+          "name": "Lokalzeit Ruhr (Essen)",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Essen",
+          "epg": {
+            "magenta": "531"
+          }
+        },
+        {
+          "id": "wdr-k",
+          "name": "Lokalzeit Köln",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Koln",
+          "epg": {
+            "magenta": "397"
+          }
+        },
+        {
+          "id": "wdr-ms",
+          "name": "Lokalzeit Münsterland",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Munster",
+          "epg": {
+            "magenta": "239"
+          }
+        },
+        {
+          "id": "wdr-si",
+          "name": "Lokalzeit Südwestfalen (Siegen)",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Siegen",
+          "epg": {
+            "magenta": "166"
+          }
+        },
+        {
+          "id": "wdr-w",
+          "name": "Lokalzeit Bergisches Land (Wuppertal)",
+          "streams": [
+            {
+              "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8"
+            }
+          ],
+          "iptvOrg": "WDRFernsehen.de@Wuppertal",
+          "epg": {
+            "magenta": "249"
+          }
+        }
+      ],
+      "defaultVariant": "wdr"
+    },
+    {
+      "id": "tagesschau24",
+      "name": "tagesschau24",
+      "group": "nachrichten",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png",
+      "iptvOrg": "tagesschau24.de@SD",
+      "epg": {
+        "ard": "tagesschau24",
+        "magenta": "400"
+      },
+      "mediathek": [
+        "tagesschau24",
+        "ARD"
+      ],
+      "streams": [
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "phoenix",
+      "name": "phoenix",
+      "group": "nachrichten",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png",
+      "iptvOrg": "phoenix.de@HD",
+      "epg": {
+        "zdf": "phoenix",
+        "magenta": "371"
+      },
+      "mediathek": [
+        "PHOENIX"
+      ],
+      "streams": [
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8"
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zdfinfo",
+      "name": "ZDFinfo",
+      "group": "nachrichten",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png",
+      "iptvOrg": "ZDFinfo.de@SD",
+      "epg": {
+        "zdf": "zdfinfo",
+        "magenta": "378"
+      },
+      "mediathek": [
+        "ZDFinfo",
+        "ZDF"
+      ],
+      "streams": [
+        {
+          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8"
+        },
+        {
+          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "name": "WELT",
+      "group": "nachrichten",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png",
+      "iptvOrg": "WELT.de@SD",
+      "epg": {
+        "magenta": "375"
+      },
+      "streams": [
+        {
+          "url": "https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "bundestag1",
+      "name": "Parlamentsfernsehen 1",
+      "group": "nachrichten",
+      "logo": "https://i.imgur.com/mksEgwx.png",
+      "iptvOrg": "Parlamentsfernsehen1.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk1/_definst_/live/video/hk1_de.smil/playlist.m3u8"
+        },
+        {
+          "url": "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "bundestag2",
+      "name": "Parlamentsfernsehen 2",
+      "group": "nachrichten",
+      "logo": "https://i.imgur.com/mksEgwx.png",
+      "iptvOrg": "Parlamentsfernsehen2.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk2/_definst_/live/video/hk2_de.smil/playlist.m3u8"
+        },
+        {
+          "url": "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk2.m3u8"
+        }
+      ],
+      "note": "Sendet nur während Sitzungen"
+    },
+    {
+      "id": "bundestag3",
+      "name": "Parlamentsfernsehen 3",
+      "group": "nachrichten",
+      "logo": "https://i.imgur.com/mksEgwx.png",
+      "iptvOrg": "Parlamentsfernsehen3.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk3/_definst_/live/video/hk3_de.smil/playlist.m3u8"
+        }
+      ],
+      "note": "Sendet nur während Sitzungen"
+    },
+    {
+      "id": "bundestag4",
+      "name": "Parlamentsfernsehen 4",
+      "group": "nachrichten",
+      "logo": "https://i.imgur.com/mksEgwx.png",
+      "iptvOrg": "Parlamentsfernsehen4.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk4/_definst_/live/video/hk4_de.smil/playlist.m3u8"
+        }
+      ],
+      "note": "Sendet nur während Sitzungen"
+    },
+    {
+      "id": "arte",
+      "name": "ARTE",
+      "group": "kultur",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png",
+      "iptvOrg": "arte.de@SD",
+      "epg": {
+        "zdf": "arte",
+        "magenta": "394"
+      },
+      "mediathek": [
+        "ARTE.DE"
+      ],
+      "streams": [
+        {
+          "url": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "3sat",
+      "name": "3sat",
+      "group": "kultur",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png",
+      "iptvOrg": "3sat.de@SD",
+      "epg": {
+        "zdf": "3sat",
+        "magenta": "392"
+      },
+      "mediathek": [
+        "3Sat"
+      ],
+      "streams": [
+        {
+          "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8"
+        },
+        {
+          "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ardalpha",
+      "name": "ARD alpha",
+      "group": "kultur",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png",
+      "iptvOrg": "ARDalpha.de@SD",
+      "epg": {
+        "ard": "alpha",
+        "magenta": "479"
+      },
+      "mediathek": [
+        "ARD-alpha",
+        "BR"
+      ],
+      "streams": [
+        {
+          "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "kika",
+      "name": "KiKA",
+      "group": "kinder",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png",
+      "iptvOrg": "KiKA.de@SD",
+      "epg": {
+        "ard": "kika",
+        "magenta": "387"
+      },
+      "mediathek": [
+        "KiKA"
+      ],
+      "streams": [
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8"
+        },
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ric",
+      "name": "RiC",
+      "group": "kinder",
+      "logo": "https://i.imgur.com/4wMZ8Em.png",
+      "iptvOrg": "RiC.de@SD",
+      "epg": {
+        "magenta": "5329"
+      },
+      "streams": [
+        {
+          "url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "weltderwunder",
+      "name": "Welt der Wunder",
+      "group": "unterhaltung",
+      "logo": "https://i.imgur.com/DLXssJe.png",
+      "iptvOrg": "WeltderWunderTV.de@SD",
+      "epg": {
+        "magenta": "60"
+      },
+      "streams": [
+        {
+          "url": "https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dokusat",
+      "name": "Dokusat",
+      "group": "unterhaltung",
+      "logo": "https://i.imgur.com/GadfTwF.png",
+      "iptvOrg": "Dokusat.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "motorvision",
+      "name": "Motorvision",
+      "group": "unterhaltung",
+      "logo": "https://i.imgur.com/v4kj8pI.png",
+      "iptvOrg": "Motorvision.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8"
+        },
+        {
+          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=535"
+        }
+      ]
+    },
+    {
+      "id": "morethansports",
+      "name": "More Than Sports TV",
+      "group": "unterhaltung",
+      "logo": "https://i.imgur.com/SLrjImc.png",
+      "iptvOrg": "MoreThanSportsTV.de@SD",
+      "epg": {
+        "magenta": "5078"
+      },
+      "streams": [
+        {
+          "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "deluxemusic",
+      "name": "DELUXE MUSIC",
+      "group": "musik",
+      "logo": "https://i.imgur.com/E65GQN9.png",
+      "iptvOrg": "DeluxeMusic.de@SD",
+      "epg": {
+        "magenta": "25"
+      },
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "deluxedance",
+      "name": "DELUXE DANCE by Kontor",
+      "group": "musik",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png",
+      "iptvOrg": "DeluxeDance.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "deluxerap",
+      "name": "DELUXE RAP",
+      "group": "musik",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png",
+      "iptvOrg": "DeluxeRap.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "schlagerdeluxe",
+      "name": "SCHLAGER DELUXE",
+      "group": "musik",
+      "logo": "https://i.imgur.com/YPpgUOg.png",
+      "epg": {
+        "magenta": "5505"
+      },
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "folx",
+      "name": "Folx Music Television",
+      "group": "musik",
+      "logo": "https://i.imgur.com/ze04puX.png",
+      "iptvOrg": "FolxMusicTelevision.de@SD",
+      "epg": {
+        "magenta": "5390"
+      },
+      "streams": [
+        {
+          "url": "https://folxapp.b-cdn.net/1080p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "onemusic",
+      "name": "One Music Television",
+      "group": "musik",
+      "logo": "https://i.imgur.com/dLgoKJ0.png",
+      "iptvOrg": "OneMusicTelevision.de@SD",
+      "epg": {
+        "magenta": "5389"
+      },
+      "streams": [
+        {
+          "url": "https://oneapp.b-cdn.net/1080p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zweimusic",
+      "name": "Zwei Music Television",
+      "group": "musik",
+      "logo": "https://i.imgur.com/RbdpCNf.png",
+      "iptvOrg": "ZweiMusicTelevision.de@SD",
+      "epg": {
+        "magenta": "5391"
+      },
+      "streams": [
+        {
+          "url": "https://zweiapp.b-cdn.net/1080p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "adriamusic",
+      "name": "Adria Music Television",
+      "group": "musik",
+      "logo": "https://i.imgur.com/QoDpnKg.png",
+      "iptvOrg": "AdriaMusicTelevision.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://adriaapp.b-cdn.net/1080p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "oneadria",
+      "name": "One Adria",
+      "group": "musik",
+      "logo": "https://i.imgur.com/NYkMamU.png",
+      "iptvOrg": "OneAdria.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://oneadriaapp.b-cdn.net/1080p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "volksmusiktv",
+      "name": "Volksmusik TV",
+      "group": "musik",
+      "logo": "https://i.imgur.com/EsWuCJ3.png",
+      "iptvOrg": "VolksmusikTV.de@SD",
+      "epg": {
+        "magenta": "5388"
+      },
+      "streams": [
+        {
+          "url": "https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dmf",
+      "name": "DMF",
+      "group": "musik",
+      "logo": "https://i.imgur.com/sJaBU7X.jpeg",
+      "iptvOrg": "DMF.de@SD",
+      "epg": {
+        "magenta": "5312"
+      },
+      "streams": [
+        {
+          "url": "https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "magentamusik",
+      "name": "MagentaMusik 360",
+      "group": "musik",
+      "logo": "https://i.imgur.com/R74gG7U.png",
+      "iptvOrg": "MagentaMusik360.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "finesttv",
+      "name": "Finest TV",
+      "group": "musik",
+      "logo": "https://i.imgur.com/1uoP10V.png",
+      "iptvOrg": "FinestTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://media.finest.tv/hls/live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "radio21",
+      "name": "Radio 21 TV",
+      "group": "musik",
+      "logo": "https://i.imgur.com/u8OhwI1.png",
+      "iptvOrg": "Radio21TV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rockland",
+      "name": "Rockland TV",
+      "group": "musik",
+      "logo": "https://i.imgur.com/6ve1FTN.png",
+      "iptvOrg": "RocklandTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://live.creacast.com/rockland-radio/smil:rockland-radio.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "sonusfm",
+      "name": "Sonus FM TV",
+      "group": "musik",
+      "logo": "https://i.imgur.com/h29rUcG.png",
+      "iptvOrg": "SonusFM.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://60015180a7f57.streamlock.net:444/public/stream_source/playlist.m3u8"
+        },
+        {
+          "url": "http://www.sonus.fm:1935/public/stream_source/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dasding",
+      "name": "DASDING (Visual Radio)",
+      "group": "musik",
+      "logo": "https://i.imgur.com/BmklHs8.png",
+      "iptvOrg": "DASDING908.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "swr3",
+      "name": "SWR3 (Visual Radio)",
+      "group": "musik",
+      "logo": "https://i.imgur.com/PxSgxRO.jpg",
+      "iptvOrg": "SWR3VisualRadio.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "unserding",
+      "name": "UNSERDING (Visual Radio)",
+      "group": "musik",
+      "logo": "https://i.imgur.com/4j4MZTT.png",
+      "iptvOrg": "Unserding.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://srde.akamaized.net/hls/live/2031842/visualradio-unserding/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "alexberlin",
+      "name": "ALEX Berlin",
+      "group": "regional",
+      "logo": "https://i.imgur.com/eTmHk4e.png",
+      "iptvOrg": "AlexBerlin.de@SD",
+      "epg": {
+        "magenta": "649"
+      },
+      "streams": [
+        {
+          "url": "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "allgaeutv",
+      "name": "Allgäu TV",
+      "group": "regional",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allg%C3%A4u_TV_Logo_%282021%29.svg/960px-Allg%C3%A4u_TV_Logo_%282021%29.svg.png",
+      "iptvOrg": "AllgauTV.de@SD",
+      "epg": {
+        "magenta": "448"
+      },
+      "streams": [
+        {
+          "url": "https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "altenburgtv",
+      "name": "Altenburg TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3JriZGR.png",
+      "iptvOrg": "AltenburgTV.de@SD",
+      "epg": {
+        "magenta": "3660"
+      },
+      "streams": [
+        {
+          "url": "https://58de7a369a9c4.streamlock.net/abgtv/abgtv_1080p/playlist.m3u8"
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "atv",
+      "name": "a.tv (Augsburg)",
+      "group": "regional",
+      "logo": "https://i.imgur.com/27AKMUL.png",
+      "iptvOrg": "AugsburgTV.de@SD",
+      "epg": {
+        "magenta": "161"
+      },
+      "streams": [
+        {
+          "url": "https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/playlist.m3u8"
+        },
+        {
+          "url": "https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "badentv",
+      "name": "Baden TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/L6vE9Bz.png",
+      "iptvOrg": "BadenTV.de@SD",
+      "epg": {
+        "magenta": "3685"
+      },
+      "streams": [
+        {
+          "url": "https://cdn.icu.de/rtplive/btv.stream/playlist.m3u8"
+        },
+        {
+          "url": "http://badentv-stream2.siebnich.info/rtplive/btv.stream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "blk",
+      "name": "BLK Regional TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/JLgnPG1.png",
+      "iptvOrg": "BLKRegionalTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "chemnitzfernsehen",
+      "name": "Chemnitz Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/4SEAbVf.png",
+      "iptvOrg": "SachsenFernsehenChemnitz.de@SD",
+      "epg": {
+        "magenta": "2612"
+      },
+      "streams": [
+        {
+          "url": "https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dresdenfernsehen",
+      "name": "Dresden Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/rnvprGj.png",
+      "iptvOrg": "SachsenFernsehenDresden.de@SD",
+      "epg": {
+        "magenta": "2611"
+      },
+      "streams": [
+        {
+          "url": "https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "leipzigfernsehen",
+      "name": "Leipzig Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/easmJUw.png",
+      "iptvOrg": "SachsenFernsehenLeipzig.de@SD",
+      "epg": {
+        "magenta": "3179"
+      },
+      "streams": [
+        {
+          "url": "https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "sachseneins",
+      "name": "Sachsen Eins",
+      "group": "regional",
+      "logo": "https://i.imgur.com/2EXNdd8.png",
+      "iptvOrg": "SachsenEins.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "erztv",
+      "name": "Erz-TV Stollberg",
+      "group": "regional",
+      "logo": "https://i.imgur.com/6FHl9B1.png",
+      "iptvOrg": "ErzTVStollberg.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "filstalwelle",
+      "name": "Filstalwelle",
+      "group": "regional",
+      "logo": "https://i.imgur.com/19iKLvf.png",
+      "iptvOrg": "Filstalwelle.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "frankenfernsehen",
+      "name": "Franken Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3pGGLLD.png",
+      "iptvOrg": "FrankenFernsehen.de@SD",
+      "epg": {
+        "magenta": "238"
+      },
+      "streams": [
+        {
+          "url": "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "frankenplus",
+      "name": "Franken Plus",
+      "group": "regional",
+      "logo": null,
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "hamburg1",
+      "name": "Hamburg 1",
+      "group": "regional",
+      "logo": "https://i.imgur.com/df3yY8W.png",
+      "iptvOrg": "Hamburg1.de@SD",
+      "epg": {
+        "magenta": "244"
+      },
+      "streams": [
+        {
+          "url": "https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "istuff",
+      "name": "iSTUFF (Ilmenau)",
+      "group": "regional",
+      "logo": "https://i.imgur.com/1V3UXVb.jpg",
+      "iptvOrg": "iSTUFF.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "kulturmd",
+      "name": "KulturMD",
+      "group": "regional",
+      "logo": "https://i.imgur.com/io7cJ1Z.png",
+      "iptvOrg": "KulturMD.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:kulturmd_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "lausitzwelle",
+      "name": "Lausitzwelle",
+      "group": "regional",
+      "logo": "https://i.imgur.com/4kYF4bK.png",
+      "iptvOrg": "Lausitzwelle.de@SD",
+      "epg": {
+        "magenta": "4727"
+      },
+      "streams": [
+        {
+          "url": "https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "mdf1",
+      "name": "MDF.1",
+      "group": "regional",
+      "logo": "https://i.imgur.com/IFGXK6u.png",
+      "iptvOrg": "MDF1.de@SD",
+      "epg": {
+        "magenta": "4888"
+      },
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:mdf1_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "muenchentv",
+      "name": "münchen.tv",
+      "group": "regional",
+      "logo": "https://i.imgur.com/lt7xNWW.png",
+      "iptvOrg": "MunchenTV.de@SD",
+      "epg": {
+        "magenta": "241"
+      },
+      "streams": [
+        {
+          "url": "https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "nrwision",
+      "name": "NRWision",
+      "group": "regional",
+      "logo": "https://i.imgur.com/RkF2Kmx.png",
+      "iptvOrg": "NRWision.de@SD",
+      "epg": {
+        "magenta": "3750"
+      },
+      "streams": [
+        {
+          "url": "https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "niederbayerntv",
+      "name": "Niederbayern TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/5sHzZAh.png",
+      "iptvOrg": "NiederbayernTVLandshut.de@SD",
+      "epg": {},
+      "variants": [
+        {
+          "id": "nby-la",
+          "name": "Landshut",
+          "streams": [
+            {
+              "url": "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8"
+            },
+            {
+              "url": "https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8"
+            }
+          ],
+          "iptvOrg": "NiederbayernTVLandshut.de@SD",
+          "epg": {
+            "magenta": "174"
+          }
+        },
+        {
+          "id": "nby-deg",
+          "name": "Deggendorf-Straubing",
+          "streams": [
+            {
+              "url": "https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8"
+            }
+          ],
+          "iptvOrg": "NiederbayernTVDeggendorfStraubing.de@SD",
+          "epg": {
+            "magenta": "177"
+          }
+        },
+        {
+          "id": "nby-pa",
+          "name": "Passau",
+          "streams": [
+            {
+              "url": "https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/index.m3u8"
+            }
+          ],
+          "iptvOrg": "NiederbayernTVPassau.de@SD",
+          "epg": {
+            "magenta": "154"
+          }
+        },
+        {
+          "id": "nby-sat",
+          "name": "Satellit",
+          "streams": [
+            {
+              "url": "https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8"
+            }
+          ],
+          "iptvOrg": "NiederbayernTV.de@SD"
+        }
+      ],
+      "defaultVariant": "nby-la"
+    },
+    {
+      "id": "noa4",
+      "name": "noa4",
+      "group": "regional",
+      "logo": "https://i.imgur.com/7A2LRKI.png",
+      "iptvOrg": "noa4Hamburg.de@SD",
+      "epg": {},
+      "variants": [
+        {
+          "id": "noa4-hh",
+          "name": "Hamburg",
+          "streams": [
+            {
+              "url": "https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8"
+            }
+          ],
+          "iptvOrg": "noa4Hamburg.de@SD"
+        },
+        {
+          "id": "noa4-nst",
+          "name": "Norderstedt",
+          "streams": [
+            {
+              "url": "https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8"
+            }
+          ],
+          "iptvOrg": "noa4Norderstedt.de@SD"
+        }
+      ],
+      "defaultVariant": "noa4-hh"
+    },
+    {
+      "id": "oftv",
+      "name": "OF-TV Offenbach",
+      "group": "regional",
+      "logo": "https://i.imgur.com/WAcxCJr.png",
+      "iptvOrg": "OFTVOffenbach.de@SD",
+      "epg": {
+        "magenta": "546"
+      },
+      "streams": [
+        {
+          "url": "https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8"
+        },
+        {
+          "url": "https://5864df9ceac85.streamlock.net/germanpictures-live/mp4:streamschedule/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "oberpfalztv",
+      "name": "Oberpfalz TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/ISI5KDd.png",
+      "iptvOrg": "OberpfalzTV.de@SD",
+      "epg": {
+        "magenta": "141"
+      },
+      "streams": [
+        {
+          "url": "https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "punktum",
+      "name": "PUNKTum Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3yamOmw.png",
+      "iptvOrg": "PUNKTumFernsehen.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:punktum_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/punktum_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ran1",
+      "name": "RAN1",
+      "group": "regional",
+      "logo": "https://i.imgur.com/zRg2BEa.png",
+      "iptvOrg": "RAN1.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ran1_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rbw",
+      "name": "RBW Bitterfeld-Wolfen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/A0UKdix.png",
+      "iptvOrg": "RBW.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:rbw_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/rbw_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rfh",
+      "name": "RFH Regionalfernsehen Harz",
+      "group": "regional",
+      "logo": "https://i.imgur.com/8DZa7in.png",
+      "iptvOrg": "RFH.de@SD",
+      "epg": {
+        "magenta": "4723"
+      },
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:RFH_high/playlist.m3u8"
+        },
+        {
+          "url": "https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rfo",
+      "name": "RFO Regional Fernsehen Oberbayern",
+      "group": "regional",
+      "logo": "https://i.imgur.com/902BHGL.png",
+      "iptvOrg": "RFO.de@SD",
+      "epg": {
+        "magenta": "143"
+      },
+      "streams": [
+        {
+          "url": "https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "radioweser",
+      "name": "Radio Weser TV",
+      "group": "regional",
+      "logo": null,
+      "iptvOrg": "RadioWeserTVBremen.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8"
+        },
+        {
+          "url": "https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "regiotv",
+      "name": "Regio TV",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3koyLef.png",
+      "iptvOrg": "RegioTVStuttgart.de@SD",
+      "epg": {
+        "magenta": "660"
+      },
+      "variants": [
+        {
+          "id": "regio-s",
+          "name": "Stuttgart",
+          "streams": [
+            {
+              "url": "https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8"
+            }
+          ],
+          "iptvOrg": "RegioTVStuttgart.de@SD"
+        },
+        {
+          "id": "regio-b",
+          "name": "Bodensee",
+          "streams": [
+            {
+              "url": "https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8"
+            }
+          ],
+          "iptvOrg": "RegioTVBodensee.de@SD"
+        }
+      ],
+      "defaultVariant": "regio-s"
+    },
+    {
+      "id": "saarland1",
+      "name": "Saarland Fernsehen 1",
+      "group": "regional",
+      "logo": "https://i.imgur.com/OodehFV.png",
+      "iptvOrg": "SaarlandFernsehen1.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "saarland2",
+      "name": "Saarland Fernsehen 2",
+      "group": "regional",
+      "logo": "https://i.imgur.com/Yv7j4ia.png",
+      "iptvOrg": "SaarlandFernsehen2.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "seenluft24",
+      "name": "Seenluft24",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3TgBg9v.jpg",
+      "iptvOrg": "Seenluft24.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "srf-suedthueringen",
+      "name": "SRF Südthüringen Fernsehen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/92XNBmr.png",
+      "iptvOrg": "SRF.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "spremberg",
+      "name": "Kanal12 Spremberg TV",
+      "group": "regional",
+      "logo": "https://i.ibb.co/1LzJz7Y/Channels4-profile-7.jpg",
+      "iptvOrg": "Kanal12SprembergTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58de7a369a9c4.streamlock.net/sprembergtv/live/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tv38",
+      "name": "TV38 Südost-Niedersachsen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/ob9JJPU.png",
+      "iptvOrg": "TV38SudostNiedersachen.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tva",
+      "name": "TVA Ostbayern",
+      "group": "regional",
+      "logo": "https://i.imgur.com/Gg6d4Jb.png",
+      "iptvOrg": "TVA.de@SD",
+      "epg": {
+        "magenta": "171"
+      },
+      "streams": [
+        {
+          "url": "https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tvingolstadt",
+      "name": "TV Ingolstadt",
+      "group": "regional",
+      "logo": "https://i.imgur.com/Ymh11VV.png",
+      "iptvOrg": "TVIngolstadt.de@SD",
+      "epg": {
+        "magenta": "173"
+      },
+      "streams": [
+        {
+          "url": "https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tvmainfranken",
+      "name": "TV Mainfranken",
+      "group": "regional",
+      "logo": "https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvmainfranken.png",
+      "iptvOrg": "TVMainfranken.de@SD",
+      "epg": {
+        "magenta": "156"
+      },
+      "streams": [
+        {
+          "url": "https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tvoberfranken",
+      "name": "TV Oberfranken",
+      "group": "regional",
+      "logo": "https://i.imgur.com/tjD9fX2.png",
+      "iptvOrg": "TVOberfranken.de@SD",
+      "epg": {
+        "magenta": "170"
+      },
+      "streams": [
+        {
+          "url": "https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "teltowkanal",
+      "name": "teltOwkanal",
+      "group": "regional",
+      "logo": "https://i.imgur.com/G0cImlU.png",
+      "iptvOrg": "teltOwkanal.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tidetv",
+      "name": "TIDE TV (Hamburg)",
+      "group": "regional",
+      "logo": "https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png",
+      "iptvOrg": "TideTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8"
+        },
+        {
+          "url": "https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok54",
+      "name": "OK54 Bürgerrundfunk Trier",
+      "group": "regional",
+      "logo": "https://ok54.de/wp-content/uploads/2013/04/ok54_logo_schwarz.png",
+      "iptvOrg": "OK54.de@SD",
+      "epg": {
+        "magenta": "663"
+      },
+      "streams": [
+        {
+          "url": "https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8"
+        },
+        {
+          "url": "https://s.ok54.de/ott/webstream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok4",
+      "name": "OK4 (Neuwied)",
+      "group": "regional",
+      "logo": "https://i.imgur.com/cUlMOlt.png",
+      "iptvOrg": "OK4.de@SD",
+      "epg": {
+        "magenta": "3045"
+      },
+      "streams": [
+        {
+          "url": "https://s.ok54.de/abr_ok4/live/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-kl",
+      "name": "OK Kaiserslautern",
+      "group": "regional",
+      "logo": "https://i.imgur.com/MRrETTh.png",
+      "iptvOrg": "OKKaiserslautern.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://s.ok54.de/abr_okkl/webstream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-ks",
+      "name": "OK Kassel",
+      "group": "regional",
+      "logo": "https://i.imgur.com/igZ9sx2.png",
+      "iptvOrg": "OKKassel.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://s.ok54.de/mok-ks/kassel/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-rm",
+      "name": "OK Rhein-Main",
+      "group": "regional",
+      "logo": "https://i.imgur.com/XsmPI4N.jpg",
+      "iptvOrg": "OKRheinMain.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-lu",
+      "name": "OK-TV Ludwigshafen",
+      "group": "regional",
+      "logo": "https://i.imgur.com/xiDeF8Y.png",
+      "iptvOrg": "OKTVLudwigshafen.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://s.ok54.de/oklu/livestream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-weinstrasse",
+      "name": "OK Weinstraße",
+      "group": "regional",
+      "logo": "https://i.imgur.com/bjTajXb.png",
+      "iptvOrg": "OKWeinstrasseNeustadt.de@SD",
+      "epg": {
+        "magenta": "3042"
+      },
+      "streams": [
+        {
+          "url": "https://s.ok54.de/okweinstrasse/okweinstrasse/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-fl",
+      "name": "OK Flensburg",
+      "group": "regional",
+      "logo": "https://i.imgur.com/NPbfgQC.png",
+      "iptvOrg": "OKFlensburg.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-ki",
+      "name": "OK Kiel",
+      "group": "regional",
+      "logo": "https://i.imgur.com/eToHabX.png",
+      "iptvOrg": "OKKiel.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-dessau",
+      "name": "OK Dessau",
+      "group": "regional",
+      "logo": "https://i.imgur.com/nx4Wc8l.png",
+      "iptvOrg": "OKDessau.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-dessau_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-md",
+      "name": "OK Magdeburg",
+      "group": "regional",
+      "logo": "https://i.imgur.com/zftoymR.png",
+      "iptvOrg": "OKMagdeburg.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-magdeburg_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-mq",
+      "name": "OK Merseburg-Querfurt",
+      "group": "regional",
+      "logo": "https://i.imgur.com/QfzdESc.png",
+      "iptvOrg": "OKMerseburgQuerfurt.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-merseburg_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-saw",
+      "name": "OK Salzwedel",
+      "group": "regional",
+      "logo": "https://i.imgur.com/jDmiTOS.png",
+      "iptvOrg": "OKSalzwedel.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-salzwedel_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-sdl",
+      "name": "OK Stendal",
+      "group": "regional",
+      "logo": "https://i.imgur.com/s9wo85l.png",
+      "iptvOrg": "OKStendal.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ok-wr",
+      "name": "OK Wernigerode",
+      "group": "regional",
+      "logo": "https://i.imgur.com/3gQvhSy.png",
+      "iptvOrg": "OKWernigerode.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8"
+        },
+        {
+          "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/ok-wernigerode_high/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "labor14",
+      "name": "labor14 (OK Gera)",
+      "group": "regional",
+      "logo": "https://www.tlm.de/assets/uploads/general/Sonstiges/LogoExt/_500xAUTO_crop_center-center_none/21labor14.jpg",
+      "iptvOrg": "labor14.de@HD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dw-en",
+      "name": "DW English",
+      "group": "international",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "iptvOrg": "DW.de@English",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dw-es",
+      "name": "DW Español",
+      "group": "international",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "iptvOrg": "DW.de@Espanol",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dw-ar",
+      "name": "DW Arabic",
+      "group": "international",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "iptvOrg": "DW.de@Arabic",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "dw-ru",
+      "name": "DW Russian",
+      "group": "international",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "iptvOrg": "DW.de@Russian",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "yoltv",
+      "name": "YOL TV",
+      "group": "international",
+      "logo": "https://i.imgur.com/rTBX6lS.png",
+      "iptvOrg": "YOLTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://live.yoltv.com/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "mctv",
+      "name": "MC TV",
+      "group": "international",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/c/ca/MC_TV_logosu.png",
+      "iptvOrg": "MCTV.de@HD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live"
+        }
+      ]
+    },
+    {
+      "id": "ciratv",
+      "name": "Çira TV",
+      "group": "international",
+      "logo": "https://i.imgur.com/YFnmSLW.png",
+      "iptvOrg": "CiraTV.de@SD",
+      "epg": {},
+      "streams": [
+        {
+          "url": "https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8"
+        },
+        {
+          "url": "https://cira-tv.akamaized.net/hls/stream_0.m3u8"
+        }
+      ]
+    }
+  ]
+}
