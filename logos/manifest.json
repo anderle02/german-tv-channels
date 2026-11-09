@@ -1,4 +1,8 @@
 {
+  "3sat": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png",
+    "file": "3sat.png"
+  },
   "adriamusic": {
     "source": "https://i.imgur.com/QoDpnKg.png",
     "file": "adriamusic.png"
@@ -7,9 +11,21 @@
     "source": "https://i.imgur.com/eTmHk4e.png",
     "file": "alexberlin.png"
   },
+  "allgaeutv": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allg%C3%A4u_TV_Logo_%282021%29.svg/960px-Allg%C3%A4u_TV_Logo_%282021%29.svg.png",
+    "file": "allgaeutv.png"
+  },
   "altenburgtv": {
     "source": "https://i.imgur.com/3JriZGR.png",
     "file": "altenburgtv.png"
+  },
+  "ardalpha": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png",
+    "file": "ardalpha.png"
+  },
+  "arte": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png",
+    "file": "arte.png"
   },
   "atv": {
     "source": "https://i.imgur.com/27AKMUL.png",
@@ -22,6 +38,10 @@
   "blk": {
     "source": "https://i.imgur.com/JLgnPG1.png",
     "file": "blk.png"
+  },
+  "br": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png",
+    "file": "br.png"
   },
   "bundestag1": {
     "source": "https://i.imgur.com/mksEgwx.png",
@@ -55,9 +75,17 @@
     "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/500px-Das_Erste_2014.svg.png",
     "file": "daserste.png"
   },
+  "deluxedance": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png",
+    "file": "deluxedance.png"
+  },
   "deluxemusic": {
     "source": "https://i.imgur.com/E65GQN9.png",
     "file": "deluxemusic.png"
+  },
+  "deluxerap": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png",
+    "file": "deluxerap.png"
   },
   "dmf": {
     "source": "https://i.imgur.com/sJaBU7X.jpeg",
@@ -70,6 +98,22 @@
   "dresdenfernsehen": {
     "source": "https://i.imgur.com/rnvprGj.png",
     "file": "dresdenfernsehen.png"
+  },
+  "dw-ar": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+    "file": "dw-ar.png"
+  },
+  "dw-en": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+    "file": "dw-en.png"
+  },
+  "dw-es": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+    "file": "dw-es.png"
+  },
+  "dw-ru": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+    "file": "dw-ru.png"
   },
   "erztv": {
     "source": "https://i.imgur.com/6FHl9B1.png",
@@ -95,9 +139,17 @@
     "source": "https://i.imgur.com/df3yY8W.png",
     "file": "hamburg1.png"
   },
+  "hr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png",
+    "file": "hr.png"
+  },
   "istuff": {
     "source": "https://i.imgur.com/1V3UXVb.jpg",
     "file": "istuff.jpg"
+  },
+  "kika": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png",
+    "file": "kika.png"
   },
   "kulturmd": {
     "source": "https://i.imgur.com/io7cJ1Z.png",
@@ -119,9 +171,17 @@
     "source": "https://i.imgur.com/R74gG7U.png",
     "file": "magentamusik.png"
   },
+  "mctv": {
+    "source": "https://upload.wikimedia.org/wikipedia/tr/c/ca/MC_TV_logosu.png",
+    "file": "mctv.png"
+  },
   "mdf1": {
     "source": "https://i.imgur.com/IFGXK6u.png",
     "file": "mdf1.png"
+  },
+  "mdr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png",
+    "file": "mdr.png"
   },
   "morethansports": {
     "source": "https://i.imgur.com/SLrjImc.png",
@@ -134,6 +194,10 @@
   "muenchentv": {
     "source": "https://i.imgur.com/lt7xNWW.png",
     "file": "muenchentv.png"
+  },
+  "ndr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png",
+    "file": "ndr.png"
   },
   "niederbayerntv": {
     "source": "https://i.imgur.com/5sHzZAh.png",
@@ -227,6 +291,10 @@
     "source": "https://i.imgur.com/dLgoKJ0.png",
     "file": "onemusic.png"
   },
+  "phoenix": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png",
+    "file": "phoenix.png"
+  },
   "punktum": {
     "source": "https://i.imgur.com/3yamOmw.png",
     "file": "punktum.png"
@@ -235,9 +303,17 @@
     "source": "https://i.imgur.com/u8OhwI1.png",
     "file": "radio21.png"
   },
+  "radiobremen": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_Radio_Bremen.svg/500px-Logo_Radio_Bremen.svg.png",
+    "file": "radiobremen.png"
+  },
   "ran1": {
     "source": "https://i.imgur.com/zRg2BEa.png",
     "file": "ran1.png"
+  },
+  "rbb": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png",
+    "file": "rbb.png"
   },
   "rbw": {
     "source": "https://i.imgur.com/A0UKdix.png",
@@ -291,13 +367,25 @@
     "source": "https://i.ibb.co/1LzJz7Y/Channels4-profile-7.jpg",
     "file": "spremberg.jpg"
   },
+  "sr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png",
+    "file": "sr.png"
+  },
   "srf-thuringia": {
     "source": "https://i.imgur.com/92XNBmr.png",
     "file": "srf-thuringia.png"
   },
+  "swr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png",
+    "file": "swr.png"
+  },
   "swr3": {
     "source": "https://i.imgur.com/PxSgxRO.jpg",
     "file": "swr3.jpg"
+  },
+  "tagesschau24": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png",
+    "file": "tagesschau24.png"
   },
   "teltowkanal": {
     "source": "https://i.imgur.com/G0cImlU.png",
@@ -335,6 +423,14 @@
     "source": "https://i.imgur.com/EsWuCJ3.png",
     "file": "volksmusiktv.png"
   },
+  "wdr": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png",
+    "file": "wdr.png"
+  },
+  "welt": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png",
+    "file": "welt.png"
+  },
   "weltderwunder": {
     "source": "https://i.imgur.com/DLXssJe.png",
     "file": "weltderwunder.png"
@@ -346,6 +442,10 @@
   "zdf": {
     "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/500px-ZDF_logo.svg.png",
     "file": "zdf.png"
+  },
+  "zdfinfo": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png",
+    "file": "zdfinfo.png"
   },
   "zdfneo": {
     "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/500px-ZDFneo2017_Logo.svg.png",

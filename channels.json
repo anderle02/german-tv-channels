@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-09T16:18:45Z",
+  "updated": "2026-11-09T16:27:56Z",
   "groups": [
     {
       "id": "main",
@@ -137,7 +137,7 @@
       "id": "br",
       "name": "BR Fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png",
+      "logo": "logos/br.png",
       "iptvOrg": "BRFernsehen.de@Sud",
       "epg": {
         "ard": "br"
@@ -180,7 +180,7 @@
       "id": "hr",
       "name": "hr-fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png",
+      "logo": "logos/hr.png",
       "iptvOrg": "hrfernsehen.de@SD",
       "epg": {
         "ard": "hr",
@@ -206,7 +206,7 @@
       "id": "mdr",
       "name": "MDR",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png",
+      "logo": "logos/mdr.png",
       "iptvOrg": "MDRFernsehen.de@Sachsen",
       "epg": {
         "ard": "mdr"
@@ -271,7 +271,7 @@
       "id": "ndr",
       "name": "NDR",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png",
+      "logo": "logos/ndr.png",
       "iptvOrg": "NDRFernsehen.de@Niedersachsen",
       "epg": {
         "ard": "ndr"
@@ -340,7 +340,7 @@
       "id": "radiobremen",
       "name": "Radio Bremen TV",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_Radio_Bremen.svg/500px-Logo_Radio_Bremen.svg.png",
+      "logo": "logos/radiobremen.png",
       "iptvOrg": "RadioBremenFernsehen.de@SD",
       "epg": {
         "ard": "radiobremen",
@@ -361,7 +361,7 @@
       "id": "rbb",
       "name": "rbb Fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png",
+      "logo": "logos/rbb.png",
       "iptvOrg": "rbbFernsehen.de@Berlin",
       "epg": {
         "ard": "rbb"
@@ -410,7 +410,7 @@
       "id": "sr",
       "name": "SR Fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png",
+      "logo": "logos/sr.png",
       "iptvOrg": "SRFernsehen.de@SD",
       "epg": {
         "ard": "sr",
@@ -433,7 +433,7 @@
       "id": "swr",
       "name": "SWR Fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png",
+      "logo": "logos/swr.png",
       "iptvOrg": "SWRFernsehenBadenWurttemberg.de@SD",
       "epg": {
         "ard": "swr"
@@ -476,7 +476,7 @@
       "id": "wdr",
       "name": "WDR Fernsehen",
       "group": "regional-public",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png",
+      "logo": "logos/wdr.png",
       "iptvOrg": "WDRFernsehen.de@Koln",
       "epg": {
         "ard": "wdr"
@@ -654,7 +654,7 @@
       "id": "tagesschau24",
       "name": "tagesschau24",
       "group": "news",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png",
+      "logo": "logos/tagesschau24.png",
       "iptvOrg": "tagesschau24.de@SD",
       "epg": {
         "ard": "tagesschau24",
@@ -678,7 +678,7 @@
       "id": "phoenix",
       "name": "phoenix",
       "group": "news",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png",
+      "logo": "logos/phoenix.png",
       "iptvOrg": "phoenix.de@HD",
       "epg": {
         "zdf": "phoenix",
@@ -701,7 +701,7 @@
       "id": "zdfinfo",
       "name": "ZDFinfo",
       "group": "news",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png",
+      "logo": "logos/zdfinfo.png",
       "iptvOrg": "ZDFinfo.de@SD",
       "epg": {
         "zdf": "zdfinfo",
@@ -725,7 +725,7 @@
       "id": "welt",
       "name": "WELT",
       "group": "news",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png",
+      "logo": "logos/welt.png",
       "iptvOrg": "WELT.de@SD",
       "epg": {
         "magenta": "375"
@@ -806,7 +806,7 @@
       "id": "arte",
       "name": "ARTE",
       "group": "culture",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png",
+      "logo": "logos/arte.png",
       "iptvOrg": "arte.de@SD",
       "epg": {
         "zdf": "arte",
@@ -826,7 +826,7 @@
       "id": "3sat",
       "name": "3sat",
       "group": "culture",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png",
+      "logo": "logos/3sat.png",
       "iptvOrg": "3sat.de@SD",
       "epg": {
         "zdf": "3sat",
@@ -849,7 +849,7 @@
       "id": "ardalpha",
       "name": "ARD alpha",
       "group": "culture",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png",
+      "logo": "logos/ardalpha.png",
       "iptvOrg": "ARDalpha.de@SD",
       "epg": {
         "ard": "alpha",
@@ -870,7 +870,7 @@
       "id": "kika",
       "name": "KiKA",
       "group": "kids",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png",
+      "logo": "logos/kika.png",
       "iptvOrg": "KiKA.de@SD",
       "epg": {
         "ard": "kika",
@@ -992,7 +992,7 @@
       "id": "deluxedance",
       "name": "DELUXE DANCE by Kontor",
       "group": "music",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png",
+      "logo": "logos/deluxedance.png",
       "iptvOrg": "DeluxeDance.de@SD",
       "epg": {},
       "streams": [
@@ -1006,7 +1006,7 @@
       "id": "deluxerap",
       "name": "DELUXE RAP",
       "group": "music",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png",
+      "logo": "logos/deluxerap.png",
       "iptvOrg": "DeluxeRap.de@SD",
       "epg": {},
       "streams": [
@@ -1274,7 +1274,7 @@
       "id": "allgaeutv",
       "name": "Allgäu TV",
       "group": "local",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allg%C3%A4u_TV_Logo_%282021%29.svg/960px-Allg%C3%A4u_TV_Logo_%282021%29.svg.png",
+      "logo": "logos/allgaeutv.png",
       "iptvOrg": "AllgauTV.de@SD",
       "epg": {
         "magenta": "448"
@@ -2382,7 +2382,7 @@
       "id": "dw-en",
       "name": "DW English",
       "group": "international",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "logo": "logos/dw-en.png",
       "iptvOrg": "DW.de@English",
       "epg": {},
       "streams": [
@@ -2396,7 +2396,7 @@
       "id": "dw-es",
       "name": "DW Español",
       "group": "international",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "logo": "logos/dw-es.png",
       "iptvOrg": "DW.de@Espanol",
       "epg": {},
       "streams": [
@@ -2410,7 +2410,7 @@
       "id": "dw-ar",
       "name": "DW Arabic",
       "group": "international",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "logo": "logos/dw-ar.png",
       "iptvOrg": "DW.de@Arabic",
       "epg": {},
       "streams": [
@@ -2424,7 +2424,7 @@
       "id": "dw-ru",
       "name": "DW Russian",
       "group": "international",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png",
+      "logo": "logos/dw-ru.png",
       "iptvOrg": "DW.de@Russian",
       "epg": {},
       "streams": [
@@ -2452,7 +2452,7 @@
       "id": "mctv",
       "name": "MC TV",
       "group": "international",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/c/ca/MC_TV_logosu.png",
+      "logo": "logos/mctv.png",
       "iptvOrg": "MCTV.de@HD",
       "epg": {},
       "streams": [
