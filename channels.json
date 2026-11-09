@@ -3,36 +3,36 @@
   "updated": "2026-11-09T16:18:45Z",
   "groups": [
     {
-      "id": "haupt",
-      "name": "Hauptsender"
+      "id": "main",
+      "name": "Main channels"
     },
     {
-      "id": "dritte",
-      "name": "Dritte Programme"
+      "id": "regional-public",
+      "name": "Regional public channels"
     },
     {
-      "id": "nachrichten",
-      "name": "Nachrichten & Politik"
+      "id": "news",
+      "name": "News & politics"
     },
     {
-      "id": "kultur",
-      "name": "Kultur & Bildung"
+      "id": "culture",
+      "name": "Culture & education"
     },
     {
-      "id": "kinder",
-      "name": "Kinder"
+      "id": "kids",
+      "name": "Kids"
     },
     {
-      "id": "unterhaltung",
-      "name": "Unterhaltung & Doku"
+      "id": "entertainment",
+      "name": "Entertainment & documentary"
     },
     {
-      "id": "musik",
-      "name": "Musik"
+      "id": "music",
+      "name": "Music"
     },
     {
-      "id": "regional",
-      "name": "Regional & Lokal"
+      "id": "local",
+      "name": "Regional & local"
     },
     {
       "id": "international",
@@ -43,14 +43,14 @@
     {
       "id": "daserste",
       "name": "Das Erste",
-      "group": "haupt",
+      "group": "main",
       "logo": "logos/daserste.png",
       "iptvOrg": "DasErste.de@HD",
       "epg": {
         "ard": "daserste",
         "magenta": "373"
       },
-      "mediathek": [
+      "mediathekView": [
         "ARD"
       ],
       "streams": [
@@ -66,14 +66,14 @@
     {
       "id": "zdf",
       "name": "ZDF",
-      "group": "haupt",
+      "group": "main",
       "logo": "logos/zdf.png",
       "iptvOrg": "ZDF.de@SD",
       "epg": {
         "zdf": "zdf",
         "magenta": "408"
       },
-      "mediathek": [
+      "mediathekView": [
         "ZDF"
       ],
       "streams": [
@@ -89,14 +89,14 @@
     {
       "id": "zdfneo",
       "name": "ZDFneo",
-      "group": "haupt",
+      "group": "main",
       "logo": "logos/zdfneo.png",
       "iptvOrg": "ZDFneo.de@SD",
       "epg": {
         "zdf": "zdfneo",
         "magenta": "391"
       },
-      "mediathek": [
+      "mediathekView": [
         "ZDFneo",
         "ZDF"
       ],
@@ -113,13 +113,13 @@
     {
       "id": "one",
       "name": "ONE",
-      "group": "haupt",
+      "group": "main",
       "logo": "logos/one.png",
       "epg": {
         "ard": "one",
         "magenta": "402"
       },
-      "mediathek": [
+      "mediathekView": [
         "ONE",
         "ARD"
       ],
@@ -136,19 +136,19 @@
     {
       "id": "br",
       "name": "BR Fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png",
       "iptvOrg": "BRFernsehen.de@Sud",
       "epg": {
         "ard": "br"
       },
-      "mediathek": [
+      "mediathekView": [
         "BR"
       ],
       "variants": [
         {
-          "id": "br-sued",
-          "name": "Süd",
+          "id": "br-south",
+          "name": "South",
           "streams": [
             {
               "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8"
@@ -160,8 +160,8 @@
           }
         },
         {
-          "id": "br-nord",
-          "name": "Nord",
+          "id": "br-north",
+          "name": "North",
           "streams": [
             {
               "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8"
@@ -173,20 +173,20 @@
           }
         }
       ],
-      "defaultVariant": "br-sued",
+      "defaultVariant": "br-south",
       "logoSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png"
     },
     {
       "id": "hr",
       "name": "hr-fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png",
       "iptvOrg": "hrfernsehen.de@SD",
       "epg": {
         "ard": "hr",
         "magenta": "386"
       },
-      "mediathek": [
+      "mediathekView": [
         "HR"
       ],
       "streams": [
@@ -205,19 +205,19 @@
     {
       "id": "mdr",
       "name": "MDR",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png",
       "iptvOrg": "MDRFernsehen.de@Sachsen",
       "epg": {
         "ard": "mdr"
       },
-      "mediathek": [
+      "mediathekView": [
         "MDR"
       ],
       "variants": [
         {
           "id": "mdr-sn",
-          "name": "Sachsen",
+          "name": "Saxony",
           "streams": [
             {
               "url": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8"
@@ -233,7 +233,7 @@
         },
         {
           "id": "mdr-sa",
-          "name": "Sachsen-Anhalt",
+          "name": "Saxony-Anhalt",
           "streams": [
             {
               "url": "https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8"
@@ -249,7 +249,7 @@
         },
         {
           "id": "mdr-th",
-          "name": "Thüringen",
+          "name": "Thuringia",
           "streams": [
             {
               "url": "https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8"
@@ -270,19 +270,19 @@
     {
       "id": "ndr",
       "name": "NDR",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png",
       "iptvOrg": "NDRFernsehen.de@Niedersachsen",
       "epg": {
         "ard": "ndr"
       },
-      "mediathek": [
+      "mediathekView": [
         "NDR"
       ],
       "variants": [
         {
           "id": "ndr-nds",
-          "name": "Niedersachsen",
+          "name": "Lower Saxony",
           "streams": [
             {
               "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
@@ -321,7 +321,7 @@
         },
         {
           "id": "ndr-mv",
-          "name": "Mecklenburg-Vorpommern",
+          "name": "Mecklenburg-Western Pomerania",
           "streams": [
             {
               "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8"
@@ -339,14 +339,14 @@
     {
       "id": "radiobremen",
       "name": "Radio Bremen TV",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_Radio_Bremen.svg/500px-Logo_Radio_Bremen.svg.png",
       "iptvOrg": "RadioBremenFernsehen.de@SD",
       "epg": {
         "ard": "radiobremen",
         "magenta": "368"
       },
-      "mediathek": [
+      "mediathekView": [
         "Radio Bremen TV",
         "rbtv"
       ],
@@ -360,13 +360,13 @@
     {
       "id": "rbb",
       "name": "rbb Fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png",
       "iptvOrg": "rbbFernsehen.de@Berlin",
       "epg": {
         "ard": "rbb"
       },
-      "mediathek": [
+      "mediathekView": [
         "RBB"
       ],
       "variants": [
@@ -409,14 +409,14 @@
     {
       "id": "sr",
       "name": "SR Fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png",
       "iptvOrg": "SRFernsehen.de@SD",
       "epg": {
         "ard": "sr",
         "magenta": "379"
       },
-      "mediathek": [
+      "mediathekView": [
         "SR"
       ],
       "streams": [
@@ -432,13 +432,13 @@
     {
       "id": "swr",
       "name": "SWR Fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png",
       "iptvOrg": "SWRFernsehenBadenWurttemberg.de@SD",
       "epg": {
         "ard": "swr"
       },
-      "mediathek": [
+      "mediathekView": [
         "SWR"
       ],
       "variants": [
@@ -457,7 +457,7 @@
         },
         {
           "id": "swr-rp",
-          "name": "Rheinland-Pfalz",
+          "name": "Rhineland-Palatinate",
           "streams": [
             {
               "url": "https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8"
@@ -475,19 +475,19 @@
     {
       "id": "wdr",
       "name": "WDR Fernsehen",
-      "group": "dritte",
+      "group": "regional-public",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png",
       "iptvOrg": "WDRFernsehen.de@Koln",
       "epg": {
         "ard": "wdr"
       },
-      "mediathek": [
+      "mediathekView": [
         "WDR"
       ],
       "variants": [
         {
-          "id": "wdr",
-          "name": "Standard",
+          "id": "wdr-main",
+          "name": "Main",
           "streams": [
             {
               "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8"
@@ -505,7 +505,7 @@
         },
         {
           "id": "wdr-ac",
-          "name": "Lokalzeit Aachen",
+          "name": "Aachen",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8"
@@ -518,7 +518,7 @@
         },
         {
           "id": "wdr-bi",
-          "name": "Lokalzeit OWL (Bielefeld)",
+          "name": "Bielefeld",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8"
@@ -531,7 +531,7 @@
         },
         {
           "id": "wdr-bn",
-          "name": "Lokalzeit Bonn",
+          "name": "Bonn",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8"
@@ -544,7 +544,7 @@
         },
         {
           "id": "wdr-do",
-          "name": "Lokalzeit Dortmund",
+          "name": "Dortmund",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8"
@@ -557,7 +557,7 @@
         },
         {
           "id": "wdr-du",
-          "name": "Lokalzeit Duisburg",
+          "name": "Duisburg",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8"
@@ -570,7 +570,7 @@
         },
         {
           "id": "wdr-dus",
-          "name": "Lokalzeit Düsseldorf",
+          "name": "Düsseldorf",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8"
@@ -583,7 +583,7 @@
         },
         {
           "id": "wdr-e",
-          "name": "Lokalzeit Ruhr (Essen)",
+          "name": "Essen",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8"
@@ -596,7 +596,7 @@
         },
         {
           "id": "wdr-k",
-          "name": "Lokalzeit Köln",
+          "name": "Cologne",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8"
@@ -609,7 +609,7 @@
         },
         {
           "id": "wdr-ms",
-          "name": "Lokalzeit Münsterland",
+          "name": "Münster",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8"
@@ -622,7 +622,7 @@
         },
         {
           "id": "wdr-si",
-          "name": "Lokalzeit Südwestfalen (Siegen)",
+          "name": "Siegen",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8"
@@ -635,7 +635,7 @@
         },
         {
           "id": "wdr-w",
-          "name": "Lokalzeit Bergisches Land (Wuppertal)",
+          "name": "Wuppertal",
           "streams": [
             {
               "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8"
@@ -647,20 +647,20 @@
           }
         }
       ],
-      "defaultVariant": "wdr",
+      "defaultVariant": "wdr-main",
       "logoSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png"
     },
     {
       "id": "tagesschau24",
       "name": "tagesschau24",
-      "group": "nachrichten",
+      "group": "news",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png",
       "iptvOrg": "tagesschau24.de@SD",
       "epg": {
         "ard": "tagesschau24",
         "magenta": "400"
       },
-      "mediathek": [
+      "mediathekView": [
         "tagesschau24",
         "ARD"
       ],
@@ -677,14 +677,14 @@
     {
       "id": "phoenix",
       "name": "phoenix",
-      "group": "nachrichten",
+      "group": "news",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png",
       "iptvOrg": "phoenix.de@HD",
       "epg": {
         "zdf": "phoenix",
         "magenta": "371"
       },
-      "mediathek": [
+      "mediathekView": [
         "PHOENIX"
       ],
       "streams": [
@@ -700,14 +700,14 @@
     {
       "id": "zdfinfo",
       "name": "ZDFinfo",
-      "group": "nachrichten",
+      "group": "news",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png",
       "iptvOrg": "ZDFinfo.de@SD",
       "epg": {
         "zdf": "zdfinfo",
         "magenta": "378"
       },
-      "mediathek": [
+      "mediathekView": [
         "ZDFinfo",
         "ZDF"
       ],
@@ -724,7 +724,7 @@
     {
       "id": "welt",
       "name": "WELT",
-      "group": "nachrichten",
+      "group": "news",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png",
       "iptvOrg": "WELT.de@SD",
       "epg": {
@@ -739,8 +739,8 @@
     },
     {
       "id": "bundestag1",
-      "name": "Parlamentsfernsehen 1",
-      "group": "nachrichten",
+      "name": "Bundestag Parliament TV 1",
+      "group": "news",
       "logo": "logos/bundestag1.png",
       "iptvOrg": "Parlamentsfernsehen1.de@SD",
       "epg": {},
@@ -756,8 +756,8 @@
     },
     {
       "id": "bundestag2",
-      "name": "Parlamentsfernsehen 2",
-      "group": "nachrichten",
+      "name": "Bundestag Parliament TV 2",
+      "group": "news",
       "logo": "logos/bundestag2.png",
       "iptvOrg": "Parlamentsfernsehen2.de@SD",
       "epg": {},
@@ -769,13 +769,13 @@
           "url": "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk2.m3u8"
         }
       ],
-      "note": "Sendet nur während Sitzungen",
+      "note": "On air during parliamentary sessions only",
       "logoSource": "https://i.imgur.com/mksEgwx.png"
     },
     {
       "id": "bundestag3",
-      "name": "Parlamentsfernsehen 3",
-      "group": "nachrichten",
+      "name": "Bundestag Parliament TV 3",
+      "group": "news",
       "logo": "logos/bundestag3.png",
       "iptvOrg": "Parlamentsfernsehen3.de@SD",
       "epg": {},
@@ -784,13 +784,13 @@
           "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk3/_definst_/live/video/hk3_de.smil/playlist.m3u8"
         }
       ],
-      "note": "Sendet nur während Sitzungen",
+      "note": "On air during parliamentary sessions only",
       "logoSource": "https://i.imgur.com/mksEgwx.png"
     },
     {
       "id": "bundestag4",
-      "name": "Parlamentsfernsehen 4",
-      "group": "nachrichten",
+      "name": "Bundestag Parliament TV 4",
+      "group": "news",
       "logo": "logos/bundestag4.png",
       "iptvOrg": "Parlamentsfernsehen4.de@SD",
       "epg": {},
@@ -799,20 +799,20 @@
           "url": "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk4/_definst_/live/video/hk4_de.smil/playlist.m3u8"
         }
       ],
-      "note": "Sendet nur während Sitzungen",
+      "note": "On air during parliamentary sessions only",
       "logoSource": "https://i.imgur.com/mksEgwx.png"
     },
     {
       "id": "arte",
       "name": "ARTE",
-      "group": "kultur",
+      "group": "culture",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png",
       "iptvOrg": "arte.de@SD",
       "epg": {
         "zdf": "arte",
         "magenta": "394"
       },
-      "mediathek": [
+      "mediathekView": [
         "ARTE.DE"
       ],
       "streams": [
@@ -825,14 +825,14 @@
     {
       "id": "3sat",
       "name": "3sat",
-      "group": "kultur",
+      "group": "culture",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png",
       "iptvOrg": "3sat.de@SD",
       "epg": {
         "zdf": "3sat",
         "magenta": "392"
       },
-      "mediathek": [
+      "mediathekView": [
         "3Sat"
       ],
       "streams": [
@@ -848,14 +848,14 @@
     {
       "id": "ardalpha",
       "name": "ARD alpha",
-      "group": "kultur",
+      "group": "culture",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png",
       "iptvOrg": "ARDalpha.de@SD",
       "epg": {
         "ard": "alpha",
         "magenta": "479"
       },
-      "mediathek": [
+      "mediathekView": [
         "ARD-alpha",
         "BR"
       ],
@@ -869,14 +869,14 @@
     {
       "id": "kika",
       "name": "KiKA",
-      "group": "kinder",
+      "group": "kids",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png",
       "iptvOrg": "KiKA.de@SD",
       "epg": {
         "ard": "kika",
         "magenta": "387"
       },
-      "mediathek": [
+      "mediathekView": [
         "KiKA"
       ],
       "streams": [
@@ -892,7 +892,7 @@
     {
       "id": "ric",
       "name": "RiC",
-      "group": "kinder",
+      "group": "kids",
       "logo": "logos/ric.png",
       "iptvOrg": "RiC.de@SD",
       "epg": {
@@ -912,7 +912,7 @@
     {
       "id": "weltderwunder",
       "name": "Welt der Wunder",
-      "group": "unterhaltung",
+      "group": "entertainment",
       "logo": "logos/weltderwunder.png",
       "iptvOrg": "WeltderWunderTV.de@SD",
       "epg": {
@@ -928,7 +928,7 @@
     {
       "id": "dokusat",
       "name": "Dokusat",
-      "group": "unterhaltung",
+      "group": "entertainment",
       "logo": "logos/dokusat.png",
       "iptvOrg": "Dokusat.de@SD",
       "epg": {},
@@ -942,7 +942,7 @@
     {
       "id": "motorvision",
       "name": "Motorvision",
-      "group": "unterhaltung",
+      "group": "entertainment",
       "logo": "logos/motorvision.png",
       "iptvOrg": "Motorvision.de@SD",
       "epg": {},
@@ -959,7 +959,7 @@
     {
       "id": "morethansports",
       "name": "More Than Sports TV",
-      "group": "unterhaltung",
+      "group": "entertainment",
       "logo": "logos/morethansports.png",
       "iptvOrg": "MoreThanSportsTV.de@SD",
       "epg": {
@@ -975,7 +975,7 @@
     {
       "id": "deluxemusic",
       "name": "DELUXE MUSIC",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/deluxemusic.png",
       "iptvOrg": "DeluxeMusic.de@SD",
       "epg": {
@@ -991,7 +991,7 @@
     {
       "id": "deluxedance",
       "name": "DELUXE DANCE by Kontor",
-      "group": "musik",
+      "group": "music",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png",
       "iptvOrg": "DeluxeDance.de@SD",
       "epg": {},
@@ -1005,7 +1005,7 @@
     {
       "id": "deluxerap",
       "name": "DELUXE RAP",
-      "group": "musik",
+      "group": "music",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png",
       "iptvOrg": "DeluxeRap.de@SD",
       "epg": {},
@@ -1019,7 +1019,7 @@
     {
       "id": "schlagerdeluxe",
       "name": "SCHLAGER DELUXE",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/schlagerdeluxe.png",
       "epg": {
         "magenta": "5505"
@@ -1034,7 +1034,7 @@
     {
       "id": "folx",
       "name": "Folx Music Television",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/folx.png",
       "iptvOrg": "FolxMusicTelevision.de@SD",
       "epg": {
@@ -1050,7 +1050,7 @@
     {
       "id": "onemusic",
       "name": "One Music Television",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/onemusic.png",
       "iptvOrg": "OneMusicTelevision.de@SD",
       "epg": {
@@ -1066,7 +1066,7 @@
     {
       "id": "zweimusic",
       "name": "Zwei Music Television",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/zweimusic.png",
       "iptvOrg": "ZweiMusicTelevision.de@SD",
       "epg": {
@@ -1082,7 +1082,7 @@
     {
       "id": "adriamusic",
       "name": "Adria Music Television",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/adriamusic.png",
       "iptvOrg": "AdriaMusicTelevision.de@SD",
       "epg": {},
@@ -1096,7 +1096,7 @@
     {
       "id": "oneadria",
       "name": "One Adria",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/oneadria.png",
       "iptvOrg": "OneAdria.de@SD",
       "epg": {},
@@ -1110,7 +1110,7 @@
     {
       "id": "volksmusiktv",
       "name": "Volksmusik TV",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/volksmusiktv.png",
       "iptvOrg": "VolksmusikTV.de@SD",
       "epg": {
@@ -1126,7 +1126,7 @@
     {
       "id": "dmf",
       "name": "DMF",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/dmf.jpg",
       "iptvOrg": "DMF.de@SD",
       "epg": {
@@ -1142,7 +1142,7 @@
     {
       "id": "magentamusik",
       "name": "MagentaMusik 360",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/magentamusik.png",
       "iptvOrg": "MagentaMusik360.de@SD",
       "epg": {},
@@ -1156,7 +1156,7 @@
     {
       "id": "finesttv",
       "name": "Finest TV",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/finesttv.png",
       "iptvOrg": "FinestTV.de@SD",
       "epg": {},
@@ -1170,7 +1170,7 @@
     {
       "id": "radio21",
       "name": "Radio 21 TV",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/radio21.png",
       "iptvOrg": "Radio21TV.de@SD",
       "epg": {},
@@ -1184,7 +1184,7 @@
     {
       "id": "rockland",
       "name": "Rockland TV",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/rockland.png",
       "iptvOrg": "RocklandTV.de@SD",
       "epg": {},
@@ -1198,7 +1198,7 @@
     {
       "id": "sonusfm",
       "name": "Sonus FM TV",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/sonusfm.png",
       "iptvOrg": "SonusFM.de@SD",
       "epg": {},
@@ -1215,7 +1215,7 @@
     {
       "id": "dasding",
       "name": "DASDING (Visual Radio)",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/dasding.png",
       "iptvOrg": "DASDING908.de@SD",
       "epg": {},
@@ -1229,7 +1229,7 @@
     {
       "id": "swr3",
       "name": "SWR3 (Visual Radio)",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/swr3.jpg",
       "iptvOrg": "SWR3VisualRadio.de@SD",
       "epg": {},
@@ -1243,7 +1243,7 @@
     {
       "id": "unserding",
       "name": "UNSERDING (Visual Radio)",
-      "group": "musik",
+      "group": "music",
       "logo": "logos/unserding.png",
       "iptvOrg": "Unserding.de@SD",
       "epg": {},
@@ -1257,7 +1257,7 @@
     {
       "id": "alexberlin",
       "name": "ALEX Berlin",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/alexberlin.png",
       "iptvOrg": "AlexBerlin.de@SD",
       "epg": {
@@ -1273,7 +1273,7 @@
     {
       "id": "allgaeutv",
       "name": "Allgäu TV",
-      "group": "regional",
+      "group": "local",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allg%C3%A4u_TV_Logo_%282021%29.svg/960px-Allg%C3%A4u_TV_Logo_%282021%29.svg.png",
       "iptvOrg": "AllgauTV.de@SD",
       "epg": {
@@ -1289,7 +1289,7 @@
     {
       "id": "altenburgtv",
       "name": "Altenburg TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/altenburgtv.png",
       "iptvOrg": "AltenburgTV.de@SD",
       "epg": {
@@ -1308,7 +1308,7 @@
     {
       "id": "atv",
       "name": "a.tv (Augsburg)",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/atv.png",
       "iptvOrg": "AugsburgTV.de@SD",
       "epg": {
@@ -1327,7 +1327,7 @@
     {
       "id": "badentv",
       "name": "Baden TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/badentv.png",
       "iptvOrg": "BadenTV.de@SD",
       "epg": {
@@ -1350,7 +1350,7 @@
     {
       "id": "blk",
       "name": "BLK Regional TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/blk.png",
       "iptvOrg": "BLKRegionalTV.de@SD",
       "epg": {},
@@ -1372,7 +1372,7 @@
     {
       "id": "chemnitzfernsehen",
       "name": "Chemnitz Fernsehen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/chemnitzfernsehen.png",
       "iptvOrg": "SachsenFernsehenChemnitz.de@SD",
       "epg": {
@@ -1388,7 +1388,7 @@
     {
       "id": "dresdenfernsehen",
       "name": "Dresden Fernsehen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/dresdenfernsehen.png",
       "iptvOrg": "SachsenFernsehenDresden.de@SD",
       "epg": {
@@ -1404,7 +1404,7 @@
     {
       "id": "leipzigfernsehen",
       "name": "Leipzig Fernsehen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/leipzigfernsehen.png",
       "iptvOrg": "SachsenFernsehenLeipzig.de@SD",
       "epg": {
@@ -1420,7 +1420,7 @@
     {
       "id": "sachseneins",
       "name": "Sachsen Eins",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/sachseneins.png",
       "iptvOrg": "SachsenEins.de@SD",
       "epg": {},
@@ -1434,7 +1434,7 @@
     {
       "id": "erztv",
       "name": "Erz-TV Stollberg",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/erztv.png",
       "iptvOrg": "ErzTVStollberg.de@SD",
       "epg": {},
@@ -1448,7 +1448,7 @@
     {
       "id": "filstalwelle",
       "name": "Filstalwelle",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/filstalwelle.png",
       "iptvOrg": "Filstalwelle.de@SD",
       "epg": {},
@@ -1462,7 +1462,7 @@
     {
       "id": "frankenfernsehen",
       "name": "Franken Fernsehen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/frankenfernsehen.png",
       "iptvOrg": "FrankenFernsehen.de@SD",
       "epg": {
@@ -1478,7 +1478,7 @@
     {
       "id": "frankenplus",
       "name": "Franken Plus",
-      "group": "regional",
+      "group": "local",
       "logo": null,
       "epg": {},
       "streams": [
@@ -1490,7 +1490,7 @@
     {
       "id": "hamburg1",
       "name": "Hamburg 1",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/hamburg1.png",
       "iptvOrg": "Hamburg1.de@SD",
       "epg": {
@@ -1506,7 +1506,7 @@
     {
       "id": "istuff",
       "name": "iSTUFF (Ilmenau)",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/istuff.jpg",
       "iptvOrg": "iSTUFF.de@SD",
       "epg": {},
@@ -1520,7 +1520,7 @@
     {
       "id": "kulturmd",
       "name": "KulturMD",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/kulturmd.png",
       "iptvOrg": "KulturMD.de@SD",
       "epg": {},
@@ -1541,7 +1541,7 @@
     {
       "id": "lausitzwelle",
       "name": "Lausitzwelle",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/lausitzwelle.png",
       "iptvOrg": "Lausitzwelle.de@SD",
       "epg": {
@@ -1561,7 +1561,7 @@
     {
       "id": "mdf1",
       "name": "MDF.1",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/mdf1.png",
       "iptvOrg": "MDF1.de@SD",
       "epg": {
@@ -1584,7 +1584,7 @@
     {
       "id": "muenchentv",
       "name": "münchen.tv",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/muenchentv.png",
       "iptvOrg": "MunchenTV.de@SD",
       "epg": {
@@ -1600,7 +1600,7 @@
     {
       "id": "nrwision",
       "name": "NRWision",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/nrwision.png",
       "iptvOrg": "NRWision.de@SD",
       "epg": {
@@ -1616,7 +1616,7 @@
     {
       "id": "niederbayerntv",
       "name": "Niederbayern TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/niederbayerntv.png",
       "iptvOrg": "NiederbayernTVLandshut.de@SD",
       "epg": {},
@@ -1665,7 +1665,7 @@
         },
         {
           "id": "nby-sat",
-          "name": "Satellit",
+          "name": "Satellite feed",
           "streams": [
             {
               "url": "https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8"
@@ -1680,7 +1680,7 @@
     {
       "id": "noa4",
       "name": "noa4",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/noa4.png",
       "iptvOrg": "noa4Hamburg.de@SD",
       "epg": {},
@@ -1712,7 +1712,7 @@
     {
       "id": "oftv",
       "name": "OF-TV Offenbach",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/oftv.png",
       "iptvOrg": "OFTVOffenbach.de@SD",
       "epg": {
@@ -1731,7 +1731,7 @@
     {
       "id": "oberpfalztv",
       "name": "Oberpfalz TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/oberpfalztv.png",
       "iptvOrg": "OberpfalzTV.de@SD",
       "epg": {
@@ -1747,7 +1747,7 @@
     {
       "id": "punktum",
       "name": "PUNKTum Fernsehen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/punktum.png",
       "iptvOrg": "PUNKTumFernsehen.de@SD",
       "epg": {},
@@ -1768,7 +1768,7 @@
     {
       "id": "ran1",
       "name": "RAN1",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ran1.png",
       "iptvOrg": "RAN1.de@SD",
       "epg": {},
@@ -1789,7 +1789,7 @@
     {
       "id": "rbw",
       "name": "RBW Bitterfeld-Wolfen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/rbw.png",
       "iptvOrg": "RBW.de@SD",
       "epg": {},
@@ -1813,8 +1813,8 @@
     },
     {
       "id": "rfh",
-      "name": "RFH Regionalfernsehen Harz",
-      "group": "regional",
+      "name": "RFH (Harz)",
+      "group": "local",
       "logo": "logos/rfh.png",
       "iptvOrg": "RFH.de@SD",
       "epg": {
@@ -1836,8 +1836,8 @@
     },
     {
       "id": "rfo",
-      "name": "RFO Regional Fernsehen Oberbayern",
-      "group": "regional",
+      "name": "RFO (Upper Bavaria)",
+      "group": "local",
       "logo": "logos/rfo.png",
       "iptvOrg": "RFO.de@SD",
       "epg": {
@@ -1853,7 +1853,7 @@
     {
       "id": "radioweser",
       "name": "Radio Weser TV",
-      "group": "regional",
+      "group": "local",
       "logo": null,
       "iptvOrg": "RadioWeserTVBremen.de@SD",
       "epg": {},
@@ -1869,7 +1869,7 @@
     {
       "id": "regiotv",
       "name": "Regio TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/regiotv.png",
       "iptvOrg": "RegioTVStuttgart.de@SD",
       "epg": {
@@ -1888,7 +1888,7 @@
         },
         {
           "id": "regio-b",
-          "name": "Bodensee",
+          "name": "Lake Constance",
           "streams": [
             {
               "url": "https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8"
@@ -1903,7 +1903,7 @@
     {
       "id": "saarland1",
       "name": "Saarland Fernsehen 1",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/saarland1.png",
       "iptvOrg": "SaarlandFernsehen1.de@SD",
       "epg": {},
@@ -1917,7 +1917,7 @@
     {
       "id": "saarland2",
       "name": "Saarland Fernsehen 2",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/saarland2.png",
       "iptvOrg": "SaarlandFernsehen2.de@SD",
       "epg": {},
@@ -1931,7 +1931,7 @@
     {
       "id": "seenluft24",
       "name": "Seenluft24",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/seenluft24.jpg",
       "iptvOrg": "Seenluft24.de@SD",
       "epg": {},
@@ -1947,10 +1947,10 @@
       "logoSource": "https://i.imgur.com/3TgBg9v.jpg"
     },
     {
-      "id": "srf-suedthueringen",
-      "name": "SRF Südthüringen Fernsehen",
-      "group": "regional",
-      "logo": "logos/srf-suedthueringen.png",
+      "id": "srf-thuringia",
+      "name": "SRF (South Thuringia)",
+      "group": "local",
+      "logo": "logos/srf-thuringia.png",
       "iptvOrg": "SRF.de@SD",
       "epg": {},
       "streams": [
@@ -1963,7 +1963,7 @@
     {
       "id": "spremberg",
       "name": "Kanal12 Spremberg TV",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/spremberg.jpg",
       "iptvOrg": "Kanal12SprembergTV.de@SD",
       "epg": {},
@@ -1976,8 +1976,8 @@
     },
     {
       "id": "tv38",
-      "name": "TV38 Südost-Niedersachsen",
-      "group": "regional",
+      "name": "TV38 (Southeast Lower Saxony)",
+      "group": "local",
       "logo": "logos/tv38.png",
       "iptvOrg": "TV38SudostNiedersachen.de@SD",
       "epg": {},
@@ -1994,8 +1994,8 @@
     },
     {
       "id": "tva",
-      "name": "TVA Ostbayern",
-      "group": "regional",
+      "name": "TVA (East Bavaria)",
+      "group": "local",
       "logo": "logos/tva.png",
       "iptvOrg": "TVA.de@SD",
       "epg": {
@@ -2011,7 +2011,7 @@
     {
       "id": "tvingolstadt",
       "name": "TV Ingolstadt",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/tvingolstadt.png",
       "iptvOrg": "TVIngolstadt.de@SD",
       "epg": {
@@ -2027,7 +2027,7 @@
     {
       "id": "tvmainfranken",
       "name": "TV Mainfranken",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/tvmainfranken.png",
       "iptvOrg": "TVMainfranken.de@SD",
       "epg": {
@@ -2043,7 +2043,7 @@
     {
       "id": "tvoberfranken",
       "name": "TV Oberfranken",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/tvoberfranken.png",
       "iptvOrg": "TVOberfranken.de@SD",
       "epg": {
@@ -2059,7 +2059,7 @@
     {
       "id": "teltowkanal",
       "name": "teltOwkanal",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/teltowkanal.png",
       "iptvOrg": "teltOwkanal.de@SD",
       "epg": {},
@@ -2073,7 +2073,7 @@
     {
       "id": "tidetv",
       "name": "TIDE TV (Hamburg)",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/tidetv.png",
       "iptvOrg": "TideTV.de@SD",
       "epg": {},
@@ -2089,8 +2089,8 @@
     },
     {
       "id": "ok54",
-      "name": "OK54 Bürgerrundfunk Trier",
-      "group": "regional",
+      "name": "OK54 Trier",
+      "group": "local",
       "logo": "logos/ok54.png",
       "iptvOrg": "OK54.de@SD",
       "epg": {
@@ -2109,7 +2109,7 @@
     {
       "id": "ok4",
       "name": "OK4 (Neuwied)",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok4.png",
       "iptvOrg": "OK4.de@SD",
       "epg": {
@@ -2125,7 +2125,7 @@
     {
       "id": "ok-kl",
       "name": "OK Kaiserslautern",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-kl.png",
       "iptvOrg": "OKKaiserslautern.de@SD",
       "epg": {},
@@ -2139,7 +2139,7 @@
     {
       "id": "ok-ks",
       "name": "OK Kassel",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-ks.png",
       "iptvOrg": "OKKassel.de@SD",
       "epg": {},
@@ -2153,7 +2153,7 @@
     {
       "id": "ok-rm",
       "name": "OK Rhein-Main",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-rm.jpg",
       "iptvOrg": "OKRheinMain.de@SD",
       "epg": {},
@@ -2167,7 +2167,7 @@
     {
       "id": "ok-lu",
       "name": "OK-TV Ludwigshafen",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-lu.png",
       "iptvOrg": "OKTVLudwigshafen.de@SD",
       "epg": {},
@@ -2181,7 +2181,7 @@
     {
       "id": "ok-weinstrasse",
       "name": "OK Weinstraße",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-weinstrasse.png",
       "iptvOrg": "OKWeinstrasseNeustadt.de@SD",
       "epg": {
@@ -2197,7 +2197,7 @@
     {
       "id": "ok-fl",
       "name": "OK Flensburg",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-fl.png",
       "iptvOrg": "OKFlensburg.de@SD",
       "epg": {},
@@ -2211,7 +2211,7 @@
     {
       "id": "ok-ki",
       "name": "OK Kiel",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-ki.png",
       "iptvOrg": "OKKiel.de@SD",
       "epg": {},
@@ -2225,7 +2225,7 @@
     {
       "id": "ok-dessau",
       "name": "OK Dessau",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-dessau.png",
       "iptvOrg": "OKDessau.de@SD",
       "epg": {},
@@ -2250,7 +2250,7 @@
     {
       "id": "ok-md",
       "name": "OK Magdeburg",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-md.png",
       "iptvOrg": "OKMagdeburg.de@SD",
       "epg": {},
@@ -2271,7 +2271,7 @@
     {
       "id": "ok-mq",
       "name": "OK Merseburg-Querfurt",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-mq.png",
       "iptvOrg": "OKMerseburgQuerfurt.de@SD",
       "epg": {},
@@ -2292,7 +2292,7 @@
     {
       "id": "ok-saw",
       "name": "OK Salzwedel",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-saw.png",
       "iptvOrg": "OKSalzwedel.de@SD",
       "epg": {},
@@ -2317,7 +2317,7 @@
     {
       "id": "ok-sdl",
       "name": "OK Stendal",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-sdl.png",
       "iptvOrg": "OKStendal.de@SD",
       "epg": {},
@@ -2342,7 +2342,7 @@
     {
       "id": "ok-wr",
       "name": "OK Wernigerode",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/ok-wr.png",
       "iptvOrg": "OKWernigerode.de@SD",
       "epg": {},
@@ -2367,7 +2367,7 @@
     {
       "id": "labor14",
       "name": "labor14 (OK Gera)",
-      "group": "regional",
+      "group": "local",
       "logo": "logos/labor14.jpg",
       "iptvOrg": "labor14.de@HD",
       "epg": {},

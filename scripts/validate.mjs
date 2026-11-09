@@ -1,3 +1,4 @@
+// Structural check of channels.json; runs on every push.
 import { readList, validate } from "./lib.mjs";
 
 const problems = validate(await readList());
